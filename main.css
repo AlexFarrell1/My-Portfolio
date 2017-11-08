@@ -1,0 +1,103 @@
+body {
+	background-color: #EEEEEE;
+}
+
+/*Ruels for Standerd Desktop*/
+
+
+
+#Jumbotron-Img {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	padding: 0%;
+	margin: 0%;
+	height: 80%;
+	width: 100%;
+}
+
+#Title {
+	position: absolute;
+	top: -1%;
+	left: 6%;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 33px;
+}
+
+#Nav-Bar {
+	position: absolute;
+	color: #ffffff;
+	font-size: 33px;
+	font-family: arial;
+	top: -1.5%;
+	left: 70%;
+
+}
+
+#Nav-Bar ul li {
+	display: inline-block;
+	text-decoration: none;
+	padding: 15px;
+	color: #ffffff;
+}
+
+#Nav-Bar ul li:hover {
+	
+	color: #6D797A;
+}
+
+.Hedders {
+	font-weight: 0px;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 60px;
+	font-family: serif;
+}
+
+#Welcome {
+	position: absolute;
+	top: 5%;
+	left: 40%;
+	font-weight: 0px;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 90px;
+}
+
+#Under-Welcome-Statment {
+	position: absolute;
+	top: 13.6%;
+	left: 41.5%;
+	font-weight: 0px;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 45px;
+}
+
+#Learn-More-Button {
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	top: 35%;
+	height: 5%;
+	width: 10%;
+	background-color: #f98d45;
+	color: #ffffff;
+	font-family: arial;
+	border-radius: 56px 56px 56px 56px;
+	-moz-border-radius: 56px 56px 56px 56px;
+	-webkit-border-radius: 56px 56px 56px 56px;
+	border: 0px solid #000000;
+
+
+}
+
+#Learn-More-Button-Text {
+
+	position: absolute;
+	top: -45.7%;
+	left: 6.8%;
+	font-size: 30px;
+
+}
