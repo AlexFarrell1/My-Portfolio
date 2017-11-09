@@ -1,5 +1,6 @@
 body {
-	background-color: #EEEEEE;
+	background-color: #282D2D;
+
 }
 
 /*Ruels for Standerd Desktop*/
@@ -12,7 +13,7 @@ body {
 	left: 0%;
 	padding: 0%;
 	margin: 0%;
-	height: 80%;
+	height: 100%;
 	width: 100%;
 }
 
@@ -32,6 +33,9 @@ body {
 	font-family: arial;
 	top: -1.5%;
 	left: 70%;
+	-webkit-vendor-animation-duration: 5s;
+    -webkit-vendor-animation-delay: 5s;
+  
 
 }
 
@@ -40,11 +44,13 @@ body {
 	text-decoration: none;
 	padding: 15px;
 	color: #ffffff;
+
 }
 
 #Nav-Bar ul li:hover {
 	
 	color: #6D797A;
+
 }
 
 .Hedders {
@@ -57,28 +63,31 @@ body {
 
 #Welcome {
 	position: absolute;
-	top: 5%;
-	left: 40%;
+	top: 16%;
+	left: 40.6%;
 	font-weight: 0px;
 	color: #ffffff;
 	font-family: arial;
 	font-size: 90px;
+	-webkit-vendor-animation-duration: 5s;
+    -webkit-vendor-animation-delay: 5s;
 }
 
 #Under-Welcome-Statment {
 	position: absolute;
-	top: 13.6%;
+	top: 19%;
 	left: 41.5%;
 	font-weight: 0px;
 	color: #ffffff;
 	font-family: arial;
 	font-size: 45px;
+
 }
 
 #Learn-More-Button {
 	position: absolute;
-	top: 40%;
-	left: 45%;
+	top: 60%;
+	left: 43%;
 	top: 35%;
 	height: 5%;
 	width: 10%;
@@ -96,8 +105,63 @@ body {
 #Learn-More-Button-Text {
 
 	position: absolute;
-	top: -45.7%;
-	left: 6.8%;
+	top: -30%;
+	left: 14.6%;
+	text-decoration: none;
+	color: #ffffff;
 	font-size: 30px;
+	cursor: pointer;
 
+
+}
+
+
+
+#Section-2 {
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	height: 45%;
+	width: 100%;
+	background-color: #95A5A6;
+}
+
+#Section-3-content{
+	position: absolute;
+	top: 175%;
+	height: 150%;
+	left: 20%;
+	width: 60%;
+	background-color: #6D797A;
+}
+
+
+
+#Section-4-content {
+	position: absolute;
+	top: 377%;
+	height: 100%;
+	left: 21%;
+	width: 60%;
+	background-color: #95A5A6;
+}
+
+#Footer {
+	position: absolute;
+	height: 15%;
+	margin: 0%;
+	padding: 0%;
+	left: 0%;
+	width: 100%;
+	top: 500%;
+	background-color: #2E3333;
+}
+
+#Copyright {
+	position: absolute;
+	font-family: arial;
+	font-size: 22px;
+	font-weight: 30px;
+	bottom: 0.9%;
+	left: 45%;
 }
