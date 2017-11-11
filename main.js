@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+	//By Alex Farrell aka Bulldog_Aviation
+
 //webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend
 
 	//Declares a var for the webkit moz MSAnimatonEnd oanimationend and animationend string
@@ -19,6 +22,36 @@ $(document).ready(function(){
 		});
 
 	});
+
+
+
+
+		//Swings the twitter logo at the footer of the page when moused over
+	$("#Twitter-Logo").on('mouseover', function(){
+		$(this).addClass("animated swing").one(RemoveAnimation, function(){
+			$(this).removeClass('animated swing')		
+
+		});
+
+	});
+				//Swings the facebook Logo at the bottom of the page when moused over
+			$("#Facebook-Logo").on('mouseover', function(){
+		  		$(this).addClass("animated swing").one(RemoveAnimation, function(){
+					$(this).removeClass('animated swing')		
+
+		});
+
+	});
+
+						//Swings the git Logo at the bottom of the page when moused over
+					$("#Git-Logo").on('mouseover', function(){
+				  		$(this).addClass("animated swing").one(RemoveAnimation, function(){
+							$(this).removeClass('animated swing')		
+
+		});
+
+	});
+
 
 
 });
